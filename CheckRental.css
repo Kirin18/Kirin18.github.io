@@ -1,0 +1,25 @@
+
+body{
+
+background-image: url("https://farm8.static.flickr.com/7472/15642359400_bb75094765_b.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color: #00cccc;
+font-size: 1.3em;
+font-family: monospace;
+
+}
+.rent{
+  border: none;
+    padding:30px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 10px;
+    padding: 8px;
+    width: 20%;
+    cursor: pointer;
+
+
+
+}

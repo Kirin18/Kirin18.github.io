@@ -1,0 +1,28 @@
+ <section class="page">
+      <ul class="accordion">
+        <li>
+          <button class="accordion-control">Sweeper </button>
+          <div class="accordion-panel">
+            <p>Sweeper <strong>RM 5 per day</strong></p>
+          </div>
+        </li>
+        <li>
+          <button class="accordion-control">Mop</button>
+          <div class="accordion-panel">
+            <p>Mop <strong>RM6 per day </strong></p>
+          </div>
+        </li>
+        <li>
+          <button class="accordion-control">Speaker</button>
+          <div class="accordion-panel">
+            <p> Speaker<strong>RM15 per day </strong> </p>
+          </div>
+        </li>
+	<li>
+          <button class="accordion-control">Microphone</button>
+          <div class="accordion-panel">
+            <p> Microphone <strong>RM10 per day </strong> </p>
+          </div>
+        </li>
+      </ul>
+    </section>
