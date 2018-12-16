@@ -1,0 +1,28 @@
+
+body{
+background-image: url("https://icamme17.files.wordpress.com/2017/05/cropped-11853446063_32c7251cd9_b.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: serif;
+font-size: 1.3em;
+color: #gray;
+text-align:center;
+
+
+}
+.box{
+background-color: #132235;
+height: 850px;
+width: 40%;
+float: inherit;
+
+}
+
+#title{
+text-align:center;
+color:#1affa3;
+}
+
+.demoHeaders{
+  color: #1affa3;
+}
