@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Confirm Booking</title>
+<link rel="stylesheet" href="ConfirmBooking.css">
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Teko" rel="stylesheet">
+<link href="jquery-ui.css" rel="stylesheet"></head>
+<style>
+body,h1,h2,h3,h4,h5,h6,label,div {font-family: 'Teko', sans-serif;
+margin:0;}
+</style>
+
+  </head>
+  <div  class="header">
+<img src="images/Logo.jpeg" style="height:100px">
+</div>
+   <nav>
+    <div class="navbar">
+      <a class="active" href="home.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+      <a href="aboutus.html">About Us</a>
+      <div class="dropdown">
+      <button class="dropbtn">Services
+
+      </button>
+      <div class="dropdown-content">
+        <a href="bookvenue.html">Book Venues</a>
+        <a href="Rental2.html">Book Equipments</a>
+        <a href="venue-report.html">Report a Problem with Venues</a>
+        <a href="eq_Defect_Report_Form.html">Report a Problem with Equipments</a>
+      </div>
+
+    </div>
+
+    </div>
+  </nav>
+  <h1>Check Availibility</h1>
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Datepicker - Select a Date Range</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    var dateFormat = "mm/dd/yy",
+      from = $( "#from" )
+        .datepicker({
+          defaultDate: "+1w",
+          changeMonth: true,
+          numberOfMonths: 3
+        })
+        .on( "change", function() {
+          to.datepicker( "option", "minDate", getDate( this ) );
+        }),
+      to = $( "#to" ).datepicker({
+        defaultDate: "+1w",
+        changeMonth: true,
+        numberOfMonths: 3
+      })
+      .on( "change", function() {
+        from.datepicker( "option", "maxDate", getDate( this ) );
+      });
+
+    function getDate( element ) {
+      var date;
+      try {
+        date = $.datepicker.parseDate( dateFormat, element.value );
+      } catch( error ) {
+        date = null;
+      }
+
+      return date;
+    }
+  } );
+  </script>
+</head>
+<body>
+<h1>Choose date:</h1>
+<form action="/action_page.php">
+  From:
+  <input type="date" name="From">
+</form>
+<form class="" action="index.html" method="post">
+   To :
+  <input type="date" name="To" value="">
+</form>
+
+</body>
+</html>
+
+
+    <h2>Confirm booking</h2>
+    <p><strong>Are you sure want to proceed booking?</strong></p>
+    <div style="float: center ">
+    <form action="book-equipments.html" method="post">
+      <input type="submit" name=" " value="Proceed" class="sub"></form>
+    </div>
+        <div style="float: center ">
+      <form action="ChooseRental.html" method="post">
+      <input type="submit" name="" value="Cancel" class="sub"></form>  <br>
+        <br>
+        <br>
+        <br>
+        <br>
+  </body>
+
+  <footer>
+    <div class="rowx" >
+    <div class="columnx" style="background-color:#132235;color:black">
+      <div class="columny">
+      <h2>Gallery</h2>
+      <a href="gallery.html">Gallery</a>
+      <br>
+        <h2>About Us</h2>
+      <a href="gallery.html">About us</a>
+      </div>
+      <h2>Home</h2>
+      <a href="home.html">Home</a><br>
+
+      <h2>Services</h2>
+      <a href="gallery.html">Book Venues</a>
+      <br>
+        <a href="gallery.html">Book Equipments</a>
+          <br>
+
+        <a href="gallery.html">  Report a Problem with Venues</a>
+          <br>
+        <a href="gallery.html">Report a Problem with Equipments</a>
+
+
+    </div>
+
+      <div class="columnx" style="background-color:#132235;color:black">
+      <h1>Connect With Us</h1>
+      <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  <a href="#" class="fa fa-reddit"></a>
+    </div>
+
+  </div>
+
+    </footer>
+</html>
