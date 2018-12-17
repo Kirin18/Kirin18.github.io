@@ -1,0 +1,153 @@
+
+.container,.panel{padding:0.01em }
+
+.padding-16{padding-top:40px!important;padding-bottom:40px!important}
+.black{color:#fff!important;background-color:#000!important}
+.card{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.light-grey{color:#000!important;background-color:#dadada!important}
+{
+    width:150px;
+}
+.form-line{
+    padding-top:12px;
+    padding-bottom:12px;
+}
+{
+    width:150px;
+}
+body, html{
+
+
+}
+
+.form-all{
+  padding-left:40px;
+    margin:0px auto;
+    padding-top:0px;
+    width:690px;
+    color:#ffffff !important;
+
+    font-size:14px;
+}
+.form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+    color: false;
+}
+
+</style>
+
+<style type="text/css" id="form-designer-style">
+/* Injected CSS Code */
+.form-label.form-label-auto {
+
+    display: inline-block;
+    float: left;
+    text-align: left;
+
+  }
+
+
+.form-line {
+  margin-top: 12px 36px 12px 36px px;
+  margin-bottom: 12px 36px 12px 36px px;
+}
+
+.form-all {
+  width: 690px;
+}
+.form-required{
+  color: #f44336;
+  font-size:20px;
+}
+
+
+.form-label-auto,
+.form-label-auto {
+  width: 500px;
+}
+
+.form-all {
+  font-size: 20px
+
+}
+.form-all .qq-upload-button,
+.form-all .qq-upload-button,
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print {
+  font-size: 20px;
+  border:none;
+  display:inline-block;padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+    background-color: #f44336;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap
+  opacity:0.3;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.form-submit-button:hover {
+    background-color: #484848;
+    color: white;
+}
+.choosefile-button{
+  font-size: 14px;
+  background-color: #f44336;
+
+  cursor:pointer;
+  white-space:nowrap
+  opacity:0.3;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+.form-all .form-pagebreak-back-container,
+.form-all .form-pagebreak-next-container {
+  font-size: 14pxpx
+}
+
+.form-all, .form-all {
+  background-color:#132235;
+  border: 1px solid transparent;
+}
+
+.form-all {
+  color: #ffffff;
+}
+.form-header-group .form-header {
+  color: #ffffff;
+}
+
+.form-label-top,
+
+
+.form-html,
+.form-checkbox-item label,
+.form-radio-item label {
+  color: #ffffff;
+}
+.form-sub-label {
+  color: #ffffff;
+}
+
+
+
+
+.form-textbox,
+.form-textarea,
+.form-radio-other-input,
+.form-checkbox-other-input,
+.form-captcha input,
+.form-spinner input {
+  background-color: #fff;
+
+}
+
+
+
+.form-all {
+  background-image: none;
+}

@@ -1,0 +1,53 @@
+
+body{
+background-image: url("https://4.bp.blogspot.com/-B3nEiHw75f0/VmfFYc-HrBI/AAAAAAAAByc/eIFaqlHV-Qg/s1600/IMG_20151207_185247_hdr_painterly%2B4.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: serif;
+font-size: 1.3em;
+color: #gray;
+text-align:center;
+
+
+}
+.box{
+background-color: #132235;
+height:1100px;
+width: 40%;
+float: inherit;
+margin-left: 40px;
+padding-left:20px;padding-right:20px;
+}
+
+#title{
+text-align:center;
+color:#1affa3;
+}
+
+.demoHeaders{
+  color: #FFFFFF;
+}
+
+.venue{
+  color: #FFFFFF;
+}
+.form-submit-button {
+  font-size: 20px;
+  border:none;
+  display:inline-block;padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+    background-color: #000000;color: white;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap
+  opacity:0.3;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.form-submit-button:hover {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,48 @@
+.column {
+    float: left;
+    width: 25%;
+    height: 200px;
+    font-size: 36px;
+    text-align: center;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.form-submit-button {
+  font-size: 20px;
+  border:none;
+  display:inline-block;padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+    background-color: #f44336;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap
+  opacity:0.3;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.form-submit-button:hover {
+    background-color: #484848;
+    color: white;
+}
+.Getintouch{
+text-align:center;
+background-color:black;
+color:black;
+background-color: white;
+}
+.form-textbox,
+.form-textarea,
+{
+  background-color: #000000;
+  border-style:solid;
+border-width: 5px;
+border-color: #132235;
+}
